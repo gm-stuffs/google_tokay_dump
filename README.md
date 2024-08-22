@@ -1,0 +1,14 @@
+# tokay-user 14 AD1A.240530.047 12143574 release-keys
+- manufacturer: google
+- platform: zumapro
+- codename: tokay
+- flavor: tokay-user
+- release: 14
+- id: AD1A.240530.047
+- incremental: 12143574
+- tags: release-keys
+- fingerprint: google/tokay/tokay:14/AD1A.240530.047/12143574:user/release-keys
+- is_ab: true
+- brand: google
+- branch: tokay-user-14-AD1A.240530.047-12143574-release-keys
+- repo: google_tokay_dump

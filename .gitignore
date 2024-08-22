@@ -1,0 +1,11 @@
+product/app/PrebuiltGmail/PrebuiltGmail.apk
+product/app/YouTube/YouTube.apk
+product/app/Photos/Photos.apk
+product/priv-app/Velvet/Velvet.apk
+product/priv-app/GoogleCamera/GoogleCamera.apk
+product/priv-app/DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01/DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01.apk
+product/priv-app/PixelLiveWallpaperPrebuilt/PixelLiveWallpaperPrebuilt.apk
+product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk
+product/priv-app/PrebuiltBugle/PrebuiltBugle.apk
+vendor/apex/com.google.pixel.camera.hal.apex
+modem.img
