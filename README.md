@@ -1,0 +1,14 @@
+# tokay_beta-user 15 AP41.240823.009 12329489 release-keys
+- manufacturer: google
+- platform: zumapro
+- codename: tokay
+- flavor: tokay_beta-user
+- release: 15
+- id: AP41.240823.009
+- incremental: 12329489
+- tags: release-keys
+- fingerprint: google/tokay_beta/tokay:15/AP41.240823.009/12329489:user/release-keys
+- is_ab: true
+- brand: google
+- branch: tokay_beta-user-15-AP41.240823.009-12329489-release-keys
+- repo: google_tokay_dump

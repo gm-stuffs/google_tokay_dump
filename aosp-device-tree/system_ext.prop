@@ -1,0 +1,4 @@
+ro.audio.ihaladaptervendorextension_enabled=true
+ro.config.isolated_compilation_enabled=true
+ro.product.device_for_attestation=tokay
+ro.product.manufacturer_for_attestation=Google

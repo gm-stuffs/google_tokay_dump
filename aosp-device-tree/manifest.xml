@@ -1,0 +1,115 @@
+<manifest version="9.0" type="device" target-level="8">
+    <hal format="aidl">
+        <name>android.hardware.bluetooth</name>
+        <fqname>IBluetoothHci/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.bluetooth.finder</name>
+        <fqname>IBluetoothFinder/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.bluetooth.ranging</name>
+        <fqname>IBluetoothChannelSounding/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.boot</name>
+        <fqname>IBootControl/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.graphics.mapper</name>
+        <transport arch="32+64">passthrough</transport>
+        <fqname>@4.0::IMapper/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.media.c2</name>
+        <fqname>IComponentStore/default1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.media.c2</name>
+        <fqname>IComponentStore/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.config</name>
+        <fqname>IRadioConfig/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.data</name>
+        <fqname>IRadioData/slot1</fqname>
+        <fqname>IRadioData/slot2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.messaging</name>
+        <fqname>IRadioMessaging/slot1</fqname>
+        <fqname>IRadioMessaging/slot2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.modem</name>
+        <fqname>IRadioModem/slot1</fqname>
+        <fqname>IRadioModem/slot2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.network</name>
+        <fqname>IRadioNetwork/slot1</fqname>
+        <fqname>IRadioNetwork/slot2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.sap</name>
+        <fqname>ISap/slot1</fqname>
+        <fqname>ISap/slot2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.sim</name>
+        <fqname>IRadioSim/slot1</fqname>
+        <fqname>IRadioSim/slot2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.voice</name>
+        <fqname>IRadioVoice/slot1</fqname>
+        <fqname>IRadioVoice/slot2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.secure_element</name>
+        <fqname>ISecureElement/SIM1</fqname>
+        <fqname>ISecureElement/SIM2</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.security.keymint</name>
+        <fqname>IRemotelyProvisionedComponent/strongbox</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>com.google.input</name>
+        <fqname>ITouchContextService/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>com.google.input.algos.gril</name>
+        <fqname>IGrilAntennaTuningService/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>com.google.input.algos.spd</name>
+        <fqname>IScreenProtectorDetectorService/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>hardware.google.ril_ext</name>
+        <fqname>IRilExt/slot1</fqname>
+        <fqname>IRilExt/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.google.audiometricext</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IAudioMetricExt/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.google.bluetooth_ext</name>
+        <fqname>IBTChannelAvoidance/default</fqname>
+        <fqname>IBluetoothCcc/default</fqname>
+        <fqname>IBluetoothEwp/default</fqname>
+        <fqname>IBluetoothExt/default</fqname>
+        <fqname>IBluetoothFinder/default</fqname>
+        <fqname>IBluetoothSar/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.samsung_slsi.telephony.hardware.radioExternal</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IOemSlsiRadioExternal/rilExternal</fqname>
+    </hal>
+</manifest>

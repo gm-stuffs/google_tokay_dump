@@ -1,0 +1,2 @@
+ro.product.device_for_attestation=tokay
+ro.product.manufacturer_for_attestation=Google

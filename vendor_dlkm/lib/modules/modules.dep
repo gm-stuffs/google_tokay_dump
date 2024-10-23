@@ -1,0 +1,118 @@
+/vendor/lib/modules/dbgcore-dump.ko:
+/system/lib/modules/nhc_ipv6.ko: /system/lib/modules/6lowpan.ko
+/system/lib/modules/ppp_deflate.ko: /system/lib/modules/ppp_generic.ko /system/lib/modules/slhc.ko
+/vendor/lib/modules/cs40l26-core.ko: /vendor/lib/modules/cl_dsp-core.ko
+/vendor/lib/modules/lwis.ko: /vendor/lib/modules/stmvl53l1.ko
+/vendor/lib/modules/aoc_uwb_platform_drv.ko: /vendor/lib/modules/aoc_uwb_service_dev.ko
+/vendor/lib/modules/hall_sensor.ko:
+/system/lib/modules/nhc_udp.ko: /system/lib/modules/6lowpan.ko
+/vendor/lib/modules/aoc_alsa_dev.ko:
+/system/lib/modules/usbserial.ko:
+/system/lib/modules/nhc_hop.ko: /system/lib/modules/6lowpan.ko
+/system/lib/modules/slhc.ko:
+/system/lib/modules/ftdi_sio.ko: /system/lib/modules/usbserial.ko
+/vendor/lib/modules/sscoredump_sample_test.ko:
+/system/lib/modules/cdc_ncm.ko: /system/lib/modules/cdc_ether.ko /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
+/system/lib/modules/ppp_generic.ko: /system/lib/modules/slhc.ko
+/vendor/lib/modules/mailbox-wc.ko:
+/system/lib/modules/can-bcm.ko: /system/lib/modules/can.ko
+/vendor/lib/modules/cs40l26-i2c.ko: /vendor/lib/modules/cs40l26-core.ko /vendor/lib/modules/cl_dsp-core.ko
+/vendor/lib/modules/stmvl53l1.ko:
+/vendor/lib/modules/ftm5.ko: /vendor/lib/modules/goog_touch_interface.ko /vendor/lib/modules/qbt_handler.ko /vendor/lib/modules/heatmap.ko
+/system/lib/modules/hidp.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
+/vendor/lib/modules/qm35.ko:
+/vendor/lib/modules/pa_kill.ko:
+/system/lib/modules/rtl8150.ko:
+/system/lib/modules/l2tp_core.ko:
+/vendor/lib/modules/softdog.ko:
+/vendor/lib/modules/vh_preemptirq_long.ko:
+/vendor/lib/modules/fpc1020_platform_tee.ko:
+/vendor/lib/modules/wlan_ptracker.ko:
+/vendor/lib/modules/bbd_pps_gpio.ko:
+/system/lib/modules/r8152.ko: /system/lib/modules/mii.ko
+/system/lib/modules/nhc_routing.ko: /system/lib/modules/6lowpan.ko
+/vendor/lib/modules/aoc_uwb_service_dev.ko:
+/system/lib/modules/bluetooth.ko: /system/lib/modules/rfkill.ko
+/vendor/lib/modules/aoc_channel_dev.ko:
+/vendor/lib/modules/cp_thermal_zone.ko:
+/system/lib/modules/nhc_mobility.ko: /system/lib/modules/6lowpan.ko
+/vendor/lib/modules/pinctrl-slg51002.ko:
+/system/lib/modules/asix.ko: /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
+/system/lib/modules/can-dev.ko:
+/vendor/lib/modules/heatmap.ko:
+/system/lib/modules/rfkill.ko:
+/system/lib/modules/8021q.ko:
+/vendor/lib/modules/qbt_handler.ko:
+/vendor/lib/modules/cl_dsp-core.ko:
+/system/lib/modules/ppp_mppe.ko: /system/lib/modules/libarc4.ko /system/lib/modules/ppp_generic.ko /system/lib/modules/slhc.ko
+/vendor/lib/modules/nitrous.ko: /system/lib/modules/rfkill.ko
+/vendor/lib/modules/snd-soc-cs35l41.ko: /vendor/lib/modules/snd-soc-wm-adsp.ko
+/vendor/lib/modules/aoc_control_dev.ko:
+/vendor/lib/modules/google_ccd.ko:
+/vendor/lib/modules/max77779-fwupdate.ko:
+/vendor/lib/modules/mali_kutf_clk_rate_trace_test_portal.ko: /vendor/lib/modules/mali_kutf.ko
+/system/lib/modules/nhc_fragment.ko: /system/lib/modules/6lowpan.ko
+/system/lib/modules/6lowpan.ko:
+/system/lib/modules/cdc_eem.ko: /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
+/vendor/lib/modules/bcmdhd4390.ko: /vendor/lib/modules/cfg80211.ko /system/lib/modules/rfkill.ko
+/vendor/lib/modules/rt9471_charger.ko:
+/vendor/lib/modules/bcm_dbg.ko:
+/system/lib/modules/mac802154.ko: /system/lib/modules/ieee802154.ko
+/system/lib/modules/cdc_ether.ko: /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
+/system/lib/modules/usbnet.ko: /system/lib/modules/mii.ko
+/system/lib/modules/libarc4.ko:
+/vendor/lib/modules/snd-soc-cs35l41-i2c.ko: /vendor/lib/modules/snd-soc-cs35l41.ko /vendor/lib/modules/snd-soc-wm-adsp.ko
+/system/lib/modules/r8153_ecm.ko: /system/lib/modules/r8152.ko /system/lib/modules/cdc_ether.ko /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
+/system/lib/modules/nhc_dest.ko: /system/lib/modules/6lowpan.ko
+/system/lib/modules/btqca.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
+/system/lib/modules/ieee802154_socket.ko: /system/lib/modules/ieee802154.ko
+/vendor/lib/modules/rio.ko:
+/system/lib/modules/hci_uart.ko: /system/lib/modules/btqca.ko /system/lib/modules/btbcm.ko /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
+/system/lib/modules/aqc111.ko: /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
+/system/lib/modules/kheaders.ko:
+/vendor/lib/modules/sec_touch.ko: /vendor/lib/modules/heatmap.ko
+/vendor/lib/modules/gxp.ko: /vendor/lib/modules/rio.ko
+/system/lib/modules/pptp.ko: /system/lib/modules/pppox.ko /system/lib/modules/ppp_generic.ko /system/lib/modules/slhc.ko
+/system/lib/modules/tipc.ko:
+/system/lib/modules/ieee802154.ko:
+/system/lib/modules/zsmalloc.ko:
+/vendor/lib/modules/aoc_char_dev.ko:
+/system/lib/modules/can.ko:
+/vendor/lib/modules/cfg80211.ko: /system/lib/modules/rfkill.ko
+/vendor/lib/modules/goodixfp.ko:
+/vendor/lib/modules/goodix_brl_touch.ko: /vendor/lib/modules/goog_touch_interface.ko /vendor/lib/modules/qbt_handler.ko /vendor/lib/modules/heatmap.ko
+/vendor/lib/modules/syna_touch.ko: /vendor/lib/modules/goog_touch_interface.ko /vendor/lib/modules/qbt_handler.ko /vendor/lib/modules/heatmap.ko
+/vendor/lib/modules/max77729_uic.ko:
+/system/lib/modules/btbcm.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
+/system/lib/modules/rfcomm.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
+/system/lib/modules/gzvm.ko:
+/vendor/lib/modules/exynos-seclog.ko:
+/system/lib/modules/ieee802154_6lowpan.ko: /system/lib/modules/ieee802154.ko /system/lib/modules/6lowpan.ko
+/system/lib/modules/wwan.ko:
+/vendor/lib/modules/mali_kutf.ko:
+/system/lib/modules/l2tp_ppp.ko: /system/lib/modules/l2tp_core.ko /system/lib/modules/pppox.ko /system/lib/modules/ppp_generic.ko /system/lib/modules/slhc.ko
+/system/lib/modules/cdc-acm.ko:
+/system/lib/modules/ax88179_178a.ko: /system/lib/modules/usbnet.ko /system/lib/modules/mii.ko
+/system/lib/modules/vcan.ko: /system/lib/modules/can-dev.ko
+/system/lib/modules/bsd_comp.ko: /system/lib/modules/ppp_generic.ko /system/lib/modules/slhc.ko
+/vendor/lib/modules/rt6160-regulator.ko:
+/vendor/lib/modules/arm_dsu_pmu.ko:
+/vendor/lib/modules/panel-boe-nt37290.ko:
+/system/lib/modules/can-raw.ko: /system/lib/modules/can.ko
+/vendor/lib/modules/snd-soc-wm-adsp.ko:
+/vendor/lib/modules/snd-soc-cs35l41-spi.ko: /vendor/lib/modules/snd-soc-cs35l41.ko /vendor/lib/modules/snd-soc-wm-adsp.ko
+/vendor/lib/modules/snd-soc-cs40l26.ko: /vendor/lib/modules/cs40l26-core.ko /vendor/lib/modules/cl_dsp-core.ko
+/vendor/lib/modules/max77729_charger.ko:
+/system/lib/modules/pppox.ko: /system/lib/modules/ppp_generic.ko /system/lib/modules/slhc.ko
+/vendor/lib/modules/sscoredump_test.ko:
+/system/lib/modules/can-gw.ko: /system/lib/modules/can.ko
+/system/lib/modules/btsdio.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
+/system/lib/modules/diag.ko: /system/lib/modules/tipc.ko
+/vendor/lib/modules/acpm_mbox_test.ko:
+/system/lib/modules/nfc.ko: /system/lib/modules/rfkill.ko
+/vendor/lib/modules/goog_touch_interface.ko: /vendor/lib/modules/qbt_handler.ko /vendor/lib/modules/heatmap.ko
+/vendor/lib/modules/st33spi.ko:
+/system/lib/modules/slcan.ko: /system/lib/modules/can-dev.ko
+/system/lib/modules/mii.ko:
+/vendor/lib/modules/aoc_unit_test_dev.ko:
+/vendor/lib/modules/mac80211.ko: /vendor/lib/modules/cfg80211.ko /system/lib/modules/libarc4.ko /system/lib/modules/rfkill.ko

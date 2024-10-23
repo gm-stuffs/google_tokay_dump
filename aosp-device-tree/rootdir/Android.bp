@@ -1,0 +1,116 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "dump_gsc.sh",
+    src: "bin/dump_gsc.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_pcie.sh",
+    src: "bin/dump_pcie.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_thermal.sh",
+    src: "bin/dump_thermal.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_touch.sh",
+    src: "bin/dump_touch.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_trusty.sh",
+    src: "bin/dump_trusty.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "predump_gti0.sh",
+    src: "bin/predump_gti0.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "disable_contaminant_detection.sh",
+    src: "bin/disable_contaminant_detection.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.radio.sh",
+    src: "bin/init.radio.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "insmod.sh",
+    src: "bin/insmod.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "predump_touch.sh",
+    src: "bin/predump_touch.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.efs.rc",
+    src: "etc/init.efs.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.tokay.rc",
+    src: "etc/init.tokay.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.zuma.soc.rc",
+    src: "etc/init.zuma.soc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.zumapro.board.rc",
+    src: "etc/init.zumapro.board.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.zumapro.soc.rc",
+    src: "etc/init.zumapro.soc.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.zumapro.usb.rc",
+    src: "etc/init.zumapro.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.zram.5g",
+    src: "etc/fstab.zram.5g",
+    vendor: true,
+}
