@@ -1,0 +1,152 @@
+#
+# Tokay sensor device configuration registry script.
+#
+# Source of truth: go/pixel-sensor-list
+#
+
+#
+# CDT Filter <CDT>:<mask>
+# CDT format: <0xPPPPSJIV> (P:Product, S:Stage, J:Major, I:Minor, V:Variant)
+# go/pixel-cdt-zuma
+# go/pixel-cdt-zuma-pro
+#
+
+?+0xA0000:0xFFFF0000
+# Exclude
+?-0xA2000:0xFFFFF000  # Proto
+?-0xA3000:0xFFFFF000  # EVT
+
+#
+# Record reg_script.
+#
+
++/
+reg_script=tokay_dvt.reg
+
+#
+# Sensors
+#
+
+# MAG (MMC5616WA)
++/dev/mmc5616/0/mag
+  fac_cal_transform=0.9982 0.0531 0.0003 0.0034 0.9092 0.0218 0.0267 -0.043 1.0285 0.0 0.0 0.0
+
+# ALSP (TMD3733)
++/dev/tmd3733/0
+  vsync_delay_ns=4300000
+
++/dev/tmd3733/0/als
+  lux_scale=5.16396
+  c_coef=1
+  r_coef=-0.82279221
+  g_coef=0.49261751
+  b_coef=-0.6698253
+  itime_table_brightness=575 908 1115 2565 3427 4096
+  itime_table=1600000 1000000 300000 300000 300000 1600000
+
+  clear_gain12_ratio=0.0625
+  red_gain12_ratio=0.0625
+  green_gain12_ratio=0.0625
+  blue_gain12_ratio=0.0625
+
+  clear_gain11_ratio=0.12243
+  red_gain11_ratio=0.12506
+  green_gain11_ratio=0.12351
+  blue_gain11_ratio=0.12553
+
+  clear_gain10_ratio=0.24835
+  red_gain10_ratio=0.25041
+  green_gain10_ratio=0.2491
+  blue_gain10_ratio=0.25071
+
+  clear_gain9_ratio=0.49889
+  red_gain9_ratio=0.5004
+  green_gain9_ratio=0.49956
+  blue_gain9_ratio=0.50073
+
+  clear_gain8_ratio=1.0
+  red_gain8_ratio=1.0
+  green_gain8_ratio=1.0
+  blue_gain8_ratio=1.0
+
+  clear_gain7_ratio=1.99541
+  red_gain7_ratio=1.99673
+  green_gain7_ratio=1.99763
+  blue_gain7_ratio=1.99551
+
+  clear_gain6_ratio=3.98396
+  red_gain6_ratio=3.98855
+  green_gain6_ratio=3.98703
+  blue_gain6_ratio=3.98272
+
++/dev/tmd3733/0/prox
+  pulse_count=4
+  vcsel_ma=10
+  far_threshold=40
+  near_threshold=90
+  pulse_len_us=64
+  filter_len=4
+  skip_count=0
+  pdata_scale=3.99025
+  gain1=8
+  gain2=2.5
+
++/dev/tmd3733/0/panel-b
+  vsync_delay_ns=4350000
+
++/dev/tmd3733/0/panel-b/als
+  lux_scale=4.57118
+  itime_table_brightness=637 1180 1181 2565 3628 4096
+  itime_table=1600000 1600000 300000 300000 300000 1600000
+
+  clear_gain12_ratio=0.0625
+  red_gain12_ratio=0.0625
+  green_gain12_ratio=0.0625
+  blue_gain12_ratio=0.0625
+
+  clear_gain11_ratio=0.12535
+  red_gain11_ratio=0.12388
+  green_gain11_ratio=0.12543
+  blue_gain11_ratio=0.12465
+
+  clear_gain10_ratio=0.25067
+  red_gain10_ratio=0.24947
+  green_gain10_ratio=0.25079
+  blue_gain10_ratio=0.25001
+
+  clear_gain9_ratio=0.50057
+  red_gain9_ratio=0.49972
+  green_gain9_ratio=0.50045
+  blue_gain9_ratio=0.50009
+
+  clear_gain8_ratio=1.0
+  red_gain8_ratio=1.0
+  green_gain8_ratio=1.0
+  blue_gain8_ratio=1.0
+
+  clear_gain7_ratio=1.99525
+  red_gain7_ratio=1.99635
+  green_gain7_ratio=1.99594
+  blue_gain7_ratio=1.99719
+
+  clear_gain6_ratio=3.98519
+  red_gain6_ratio=3.98913
+  green_gain6_ratio=3.98682
+  blue_gain6_ratio=3.98895
+
++/dev/tmd3733/0/panel-b/prox
+  pulse_len_us=128
+  pdata_scale=1.60028
+
+# RAINBOW (VD6282)
++/dev/vd6282/0/spectral
+  # Golden values for calibration.
+  golden_rals_r=1104.222899
+  golden_rals_g=1152.386319
+  golden_rals_b=286.124664
+  golden_rals_clr1=5145.036779
+  golden_rals_ir=3023.216255
+  golden_rals_clr2=5106.924719
+
++/dev/vd6282/0/rls
+  lux_scale=106.239928
