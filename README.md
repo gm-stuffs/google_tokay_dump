@@ -1,0 +1,14 @@
+# tokay_beta-user 15 BP11.241025.006 12620009 release-keys
+- manufacturer: google
+- platform: zumapro
+- codename: tokay
+- flavor: tokay_beta-user
+- release: 15
+- id: BP11.241025.006
+- incremental: 12620009
+- tags: release-keys
+- fingerprint: google/tokay_beta/tokay:15/BP11.241025.006/12620009:user/release-keys
+- is_ab: true
+- brand: google
+- branch: tokay_beta-user-15-BP11.241025.006-12620009-release-keys
+- repo: google_tokay_dump

@@ -1,0 +1,11 @@
+on late-fs
+    mount_all /vendor/etc/fstab.efs --early
+
+on property:ro.vendor.persist.status=mounted
+    # for modem related functions
+    restorecon_recursive /mnt/vendor/efs
+    chown radio system /mnt/vendor/efs
+    restorecon_recursive /mnt/vendor/efs_backup
+    chown radio system /mnt/vendor/efs_backup
+    restorecon_recursive /mnt/vendor/modem_userdata
+    chown radio system /mnt/vendor/modem_userdata
