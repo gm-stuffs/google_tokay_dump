@@ -1,0 +1,6 @@
+service uprobestats /system/bin/uprobestats
+    disabled
+    user uprobestats
+    group uprobestats readproc
+    oneshot
+    capabilities PERFMON
