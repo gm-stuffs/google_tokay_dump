@@ -1,0 +1,10 @@
+<!--
+    Input:
+        vendor/google/services/ImageProcessing/aidl/com/google/android/imageprocessing/hal/com.google.android.imageprocessing.hal-default.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="aidl">
+        <name>com.google.android.imageprocessing.hal</name>
+        <fqname>IImageProcessingHal/default</fqname>
+    </hal>
+</manifest>
