@@ -1,0 +1,1 @@
+/dev/block/platform/13200000.ufs/by-name/modem     /mnt/vendor/modem_img     ext4     noatime,ro,context=u:object_r:modem_img_file:s0     wait,slotselect

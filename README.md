@@ -1,0 +1,14 @@
+# tokay-user 15 AP4A.241205.013 12621605 release-keys
+- manufacturer: google
+- platform: zumapro
+- codename: tokay
+- flavor: tokay-user
+- release: 15
+- id: AP4A.241205.013
+- incremental: 12621605
+- tags: release-keys
+- fingerprint: google/tokay/tokay:15/AP4A.241205.013/12621605:user/release-keys
+- is_ab: true
+- brand: google
+- branch: tokay-user-15-AP4A.241205.013-12621605-release-keys
+- repo: google_tokay_dump
