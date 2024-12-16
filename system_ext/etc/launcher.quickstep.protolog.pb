@@ -1,0 +1,1 @@
+(ACTIVE_GESTURE_LOGActiveGestureLog!RECENTS_WINDOWRecentsWindow0LAUNCHER_STATE_MANAGERLauncherStateManager
