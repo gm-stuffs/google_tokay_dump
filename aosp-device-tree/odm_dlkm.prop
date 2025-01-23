@@ -1,0 +1,3 @@
+ro.odm_dlkm.build.version.sdk_full=35.0
+ro.product.device_for_attestation=tokay
+ro.product.manufacturer_for_attestation=Google

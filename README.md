@@ -1,0 +1,14 @@
+# tokay_beta-user Baklava BP22.250103.008 12932282 release-keys
+- manufacturer: google
+- platform: zumapro
+- codename: tokay
+- flavor: tokay_beta-user
+- release: 15
+- id: BP22.250103.008
+- incremental: 12932282
+- tags: release-keys
+- fingerprint: google/tokay_beta/tokay:Baklava/BP22.250103.008/12932282:user/release-keys
+- is_ab: true
+- brand: google
+- branch: tokay_beta-user-Baklava-BP22.250103.008-12932282-release-keys
+- repo: google_tokay_dump
