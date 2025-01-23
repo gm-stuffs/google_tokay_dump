@@ -1,0 +1,23 @@
+# Activate DISABLE_AMM hint.
+service pixel-amm-experiment-activate /vendor/bin/sendhint -m DISABLE_AMM
+    user root
+    disabled
+    oneshot
+
+# Deactivate DISABLE_AMM hint.
+service pixel-amm-experiment-deactivate /vendor/bin/sendhint -m DISABLE_AMM -e 0
+    user root
+    disabled
+    oneshot
+
+# AMM experiment (go/pixel-perf-amm-experiment).
+on property:vendor.perf.allow_experiments=1 && \
+    property:vendor.pixel.system.phenotype.Perf__amm_experiment=true
+    setprop vendor.powerhal.amm_enabled false
+    start pixel-amm-experiment-activate
+
+# Rampdown of the experiment.
+on property:vendor.perf.allow_experiments=1 && \
+    property:vendor.pixel.system.phenotype.Perf__amm_experiment=""
+    setprop vendor.powerhal.amm_enabled ""
+    start pixel-amm-experiment-deactivate
