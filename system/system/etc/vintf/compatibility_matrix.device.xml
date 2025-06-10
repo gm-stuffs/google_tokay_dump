@@ -1,0 +1,36 @@
+<!--
+    Input:
+        vendor/google/whitechapel/aoc/aocx/aidl/aocx/framework_compatibility_matrix.xml
+        vendor/google/services/ImageProcessing/hal/framework_compatibility_matrix.xml
+-->
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="aidl">
+        <name>aocx</name>
+        <version>1-2</version>
+        <interface>
+            <name>IAocx</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>com.google.android.imageprocessing.hal</name>
+        <interface>
+            <name>IImageProcessingHal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <sepolicy>
+        <kernel-sepolicy-version>30</kernel-sepolicy-version>
+        <sepolicy-version>29.0</sepolicy-version>
+        <sepolicy-version>30.0</sepolicy-version>
+        <sepolicy-version>31.0</sepolicy-version>
+        <sepolicy-version>32.0</sepolicy-version>
+        <sepolicy-version>33.0</sepolicy-version>
+        <sepolicy-version>34.0</sepolicy-version>
+        <sepolicy-version>202404</sepolicy-version>
+        <sepolicy-version>202504</sepolicy-version>
+    </sepolicy>
+    <avb>
+        <vbmeta-version>1.0</vbmeta-version>
+    </avb>
+</compatibility-matrix>
