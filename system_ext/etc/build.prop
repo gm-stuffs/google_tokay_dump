@@ -1,0 +1,33 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=google
+ro.product.system_ext.device=tokay
+ro.product.system_ext.manufacturer=Google
+ro.product.system_ext.model=Pixel 9
+ro.product.system_ext.name=tokay
+ro.product.model_for_attestation=Pixel 9
+ro.product.brand_for_attestation=google
+ro.product.name_for_attestation=tokay
+ro.product.device_for_attestation=tokay
+ro.product.manufacturer_for_attestation=Google
+ro.system_ext.build.date=Fri May 30 20:04:55 UTC 2025
+ro.system_ext.build.date.utc=1748635495
+ro.system_ext.build.fingerprint=google/tokay/tokay:16/BP2A.250605.031.A2/13578606:user/release-keys
+ro.system_ext.build.id=BP2A.250605.031.A2
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=13578606
+ro.system_ext.build.version.release=16
+ro.system_ext.build.version.release_or_codename=16
+ro.system_ext.build.version.sdk=36
+ro.system_ext.build.version.sdk_full=36.0
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+remote_provisioning.use_cert_processor=false
+ro.audio.ihaladaptervendorextension_enabled=true
+ro.config.isolated_compilation_enabled=true
+# end of file
+

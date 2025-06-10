@@ -1,0 +1,6 @@
+remote_provisioning.use_cert_processor=false
+ro.audio.ihaladaptervendorextension_enabled=true
+ro.config.isolated_compilation_enabled=true
+ro.product.device_for_attestation=tokay
+ro.product.manufacturer_for_attestation=Google
+ro.system_ext.build.version.sdk_full=36.0

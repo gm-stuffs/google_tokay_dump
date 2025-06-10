@@ -1,0 +1,14 @@
+# tokay-user 16 BP2A.250605.031.A2 13578606 release-keys
+- manufacturer: google
+- platform: zumapro
+- codename: tokay
+- flavor: tokay-user
+- release: 16
+- id: BP2A.250605.031.A2
+- incremental: 13578606
+- tags: release-keys
+- fingerprint: google/tokay/tokay:16/BP2A.250605.031.A2/13578606:user/release-keys
+- is_ab: true
+- brand: google
+- branch: tokay-user-16-BP2A.250605.031.A2-13578606-release-keys
+- repo: google_tokay_dump
