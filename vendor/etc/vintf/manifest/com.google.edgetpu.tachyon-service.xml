@@ -1,0 +1,5 @@
+<!--
+    Input:
+        vendor/google_devices/zumapro/proprietary/gchips/tpu/tachyon/service/com.google.edgetpu.tachyon-service.xml
+-->
+<manifest version="9.0" type="device"/>
